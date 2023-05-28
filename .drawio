@@ -1,0 +1,70 @@
+<mxfile host="app.diagrams.net" modified="2023-05-23T13:27:22.261Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36 Edg/113.0.1774.50" etag="TiuMsiQiDITkj-lWe6wS" version="21.3.3" type="device">
+  <diagram name="ページ1" id="tQjozOrJmvxqZyx2_Cxp">
+    <mxGraphModel dx="1444" dy="1140" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="veoZ13wtgxrs_ITIuX64-3" value="&lt;h3 style=&quot;border: 0px; background-color: var(--bb-content-alternate-background-color); box-sizing: border-box; margin: 0px auto 15px; overflow: auto; padding: 0.9375rem; border-radius: 6px; font-size: 1rem; font-family: &amp;quot;Courier New&amp;quot;, courier, &amp;quot;Lucida Sans Typewriter&amp;quot;, &amp;quot;Lucida Typewriter&amp;quot;, monospace; max-width: 1200px; width: 640px;&quot;&gt;&lt;font color=&quot;#ffffff&quot;&gt;N là số được sinh số ngẫu nhiên trong khoảng 0-9&lt;br&gt;&amp;nbsp; Nhập vào M&lt;br&gt;&amp;nbsp; IF (N==M)&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Display &quot;Dự đoán đúng&quot;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;br&gt;&amp;nbsp; ELSE&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;br&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp; Display &quot;Dự đoán sai&quot;&lt;br&gt;End&lt;/font&gt;&lt;/h3&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="10" width="526" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="veoZ13wtgxrs_ITIuX64-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="veoZ13wtgxrs_ITIuX64-4" target="veoZ13wtgxrs_ITIuX64-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="veoZ13wtgxrs_ITIuX64-4" value="Begin" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="150" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="veoZ13wtgxrs_ITIuX64-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="veoZ13wtgxrs_ITIuX64-5" target="veoZ13wtgxrs_ITIuX64-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="veoZ13wtgxrs_ITIuX64-5" value="Input n ngẫu nhiên từ 0-&amp;gt;9" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="215" y="240" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="veoZ13wtgxrs_ITIuX64-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="veoZ13wtgxrs_ITIuX64-6" target="veoZ13wtgxrs_ITIuX64-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="veoZ13wtgxrs_ITIuX64-6" value="Input M" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="245" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="veoZ13wtgxrs_ITIuX64-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="veoZ13wtgxrs_ITIuX64-7" target="veoZ13wtgxrs_ITIuX64-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="veoZ13wtgxrs_ITIuX64-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.569;entryY=0.05;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="veoZ13wtgxrs_ITIuX64-7" target="veoZ13wtgxrs_ITIuX64-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="veoZ13wtgxrs_ITIuX64-7" value="N==M" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="410" width="90" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="veoZ13wtgxrs_ITIuX64-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="veoZ13wtgxrs_ITIuX64-8" target="veoZ13wtgxrs_ITIuX64-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="150" y="650" />
+              <mxPoint x="260" y="650" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="veoZ13wtgxrs_ITIuX64-8" value="Output &quot;ĐÚng&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="veoZ13wtgxrs_ITIuX64-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="veoZ13wtgxrs_ITIuX64-9" target="veoZ13wtgxrs_ITIuX64-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="450" y="650" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="veoZ13wtgxrs_ITIuX64-9" value="Output &quot;Sai&quot;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="veoZ13wtgxrs_ITIuX64-15" value="Y" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="185" y="410" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="veoZ13wtgxrs_ITIuX64-16" value="N" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="380" y="410" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="veoZ13wtgxrs_ITIuX64-17" value="End" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="620" width="90" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
